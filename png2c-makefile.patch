@@ -1,0 +1,22 @@
+--- makefile~	2002-11-29 12:41:44.000000000 +0100
++++ makefile	2005-01-22 21:59:16.541023032 +0100
+@@ -4,19 +4,7 @@
+ #
+ # $Id$
+ 
+-ifeq ($(shell $(CC) -dumpmachine), ppc-morphos)
+-BUILD=MORPHOS
+-else
+-BUILD=UNIX
+-endif
+-
+ OBJS = png2c.o	
+-CFLAGS = -O2
+-LDFLAGS = -s
+-ifeq ($(BUILD),MORPHOS)
+-CFLAGS += -mcpu=604e -fomit-frame-pointer -mmultiple
+-LDFLAGS += -noixemul
+-endif
+ EXE = png2c
+ 
+ .c.o:
