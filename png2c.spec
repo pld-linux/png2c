@@ -1,4 +1,3 @@
-# TODO: optflags
 Summary:	Tool which converts a PNG file to a C source
 Summary(pl):	Narzêdzie konwertuj±ce grafikê w PNG do kodu w C
 Name:		png2c
