@@ -1,3 +1,4 @@
+# TODO: optflags
 Summary:	Tool which converts a PNG file to a C source
 Summary(pl):	Narzêdzie konwertuj±ce grafikê w PNG do kodu w C
 Name:		png2c
@@ -5,10 +6,9 @@ Version:	1.1
 Release:	1
 Epoch:		0
 License:	distributable
-Group:		Development
 Vendor:		David Gerber <zapek@meanmachine.ch>
-#Icon:		-
-Source0:	http://zapek.com/software/%{name}/%{name}.tar.gz
+Group:		Development
+Source0:	http://zapek.com/software/png2c/%{name}.tar.gz
 # Source0-md5:	6133382233fa3e10f5e634b78dac7b5b
 Patch0:		%{name}-ISO-C.patch
 Patch1:		%{name}-makefile.patch
@@ -26,9 +26,10 @@ Formats currently supported:
 
 %description -l pl
 png2c to narzêdzie konwertuj±ce grafikê w PNG do kodu w C. Dziêki
-niemu w bardzo ³atwy sposób wbudujesz grafikê do swoich programów.
+niemu mo¿na w bardzo ³atwy sposób wbudowaæ grafikê do swoich
+programów.
 
-Formaty obcenie obs³ugiwane:
+Formaty obecnie obs³ugiwane:
  - 32-bit RGBA -> na wyj¶ciu ARGB
  - 24-bit -> na wyj¶ciu RGB
 
@@ -43,7 +44,7 @@ Formaty obcenie obs³ugiwane:
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 
-install png2c $RPM_BUILD_ROOT%{_bindir}/
+install png2c $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
