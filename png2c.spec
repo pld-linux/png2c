@@ -1,8 +1,7 @@
 Summary:	Tool which converts a PNG file to a C source
 Summary(pl):	Narzêdzie konwertuj±ce grafikê w PNG do kodu w C
 Name:		png2c
-# no version...
-Version:	1
+Version:	1.1
 Release:	1
 Epoch:		0
 License:	distributable
