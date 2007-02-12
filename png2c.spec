@@ -1,5 +1,5 @@
 Summary:	Tool which converts a PNG file to a C source
-Summary(pl):	NarzÍdzie konwertuj±ce grafikÍ w PNG do kodu w C
+Summary(pl.UTF-8):   Narzƒôdzie konwertujƒÖce grafikƒô w PNG do kodu w C
 Name:		png2c
 Version:	1.1
 Release:	1
@@ -23,14 +23,14 @@ Formats currently supported:
  - 32-bit RGBA -> output to ARGB
  - 24-bit -> output to RGB
 
-%description -l pl
-png2c to narzÍdzie konwertuj±ce grafikÍ w PNG do kodu w C. DziÍki
-niemu moøna w bardzo ≥atwy sposÛb wbudowaÊ grafikÍ do swoich
-programÛw.
+%description -l pl.UTF-8
+png2c to narzƒôdzie konwertujƒÖce grafikƒô w PNG do kodu w C. Dziƒôki
+niemu mo≈ºna w bardzo ≈Çatwy spos√≥b wbudowaƒá grafikƒô do swoich
+program√≥w.
 
-Formaty obecnie obs≥ugiwane:
- - 32-bit RGBA -> na wyj∂ciu ARGB
- - 24-bit -> na wyj∂ciu RGB
+Formaty obecnie obs≈Çugiwane:
+ - 32-bit RGBA -> na wyj≈õciu ARGB
+ - 24-bit -> na wyj≈õciu RGB
 
 %prep
 %setup -q -n %{name}
